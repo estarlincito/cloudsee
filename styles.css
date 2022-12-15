@@ -87,6 +87,7 @@ a:active {
 
 .article__subtitle {
   color: rgb(47, 46, 46);
+  cursor: pointer;
 }
 
 .article__desp {
