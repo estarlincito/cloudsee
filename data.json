@@ -1,0 +1,36 @@
+{
+  "article": {
+    "title": "¿Como instalar cloudsee en un DEVICENAME?",
+    "desp": "En este post te mostraré los pasos a seguir para instalar y crear tu cuenta de cloudsee en tu DEVICENAME",
+    "steps": [
+      {
+        "step": "Ubica la tienda de aplicaciones de tu <b>DEVICENAME</b> (STORENAME)."
+      },
+      {
+        "step": "En la STORENAME buscamos la aplicación <a href='URLVALUE' target='blank'>CloudSEE IntI Pro</a> y la instalamos."
+      },
+      { "step": "Seleccionamos nuestro país y hacemos clic en Enter." },
+      { "step": "Hacemos clic en <b>Start CloudSEE Int' Pro</b>" },
+      {
+        "step": "Aceptamos los términos clicando <b>I have agreed the CloudSEE</b> y luego hacemos clic en <b>Quick Register.</b>"
+      },
+      {
+        "step": "Escribimos nuestro correo electrónico y hacemos clic en Next."
+      },
+      {
+        "step": "En este paso escribimos nuestra contraseña, les recomiendo que no elijan una contraseña fácil o una que ya estén utilizando en otro servicio. <br /> Luego de introducir la contraseña hacemos clic en <b>Get Code</b>"
+      },
+      {
+        "step": "Ubica la bandeja de entrada de tu correo electrónico, busca el correo que te envió <b>CloudSEE</b> con el código de verificación. Una vez localizado el código introdúcelo en la aplicación y haz clic en <b>Start CloudSEE Int'I Pro.</b> para terminar de crear tu cuenta."
+      },
+      {
+        "step": "Escribe tu correo y contraseña, luego cliquea <b>Login Now.</b>"
+      },
+      {
+        "step": "Si te aparece una ventana como esta 👇🏽, es porque has creado tu cuenta perfectamente."
+      }
+    ],
+
+    "end": "<div class=\"end\">\n<p>\n  *Si deseas más información o necesitas de cierto soporte con tu sistema\n  de seguridad, tu móvil, computadora, estoy a tu disposición, puedes\n  contactar conmigo al <a href=\"tel:18092507747\">809-250-7747</a> o por\n  esta vía\n  <a href=\"https://linktr.ee/estarlincito\" target=\"_blank\">Linktrs</a>.\n</p>\n</div>"
+  }
+}

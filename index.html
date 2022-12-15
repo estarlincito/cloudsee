@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>CloudSEE</title>
+  </head>
+  <body>
+    <div id="menu"></div>
+    <div class="container">
+      <h1 class="title">Soporte de CloudSEE</h1>
+
+      <div class="cards">
+        <p class="cards__sub">
+          <b>cloudSee</b> DVRs permite a los usuarios conectar a sus cámaras al
+          instante.
+        </p>
+
+        <p class="cards__desp">He aquí algunos consejos.</p>
+
+        <div class="card" onclick="page('android')">
+          <h3 class="card__title">¿Como instalar cloudsee en un Android?</h3>
+
+          <p class="card__desp">
+            En este post te muestro los pasos a seguir para instalar CloudSee en
+            tu Android.
+          </p>
+        </div>
+
+        <div class="card" onclick="page('iphone')">
+          <h3 class="card__title">¿Como instalar cloudsee en un iPhone?</h3>
+
+          <p class="card__desp">
+            En este post te muestro los pasos a seguir para instalar CloudSee en
+            tu iPhone.
+          </p>
+        </div>
+
+        <div class="card" onclick="page('share')">
+          <h3 class="card__title">Compartir acceso cloudsee</h3>
+
+          <p class="card__desp">
+            En este post te mostraré como compartir tu acceso de cloudSee con
+            tus compañeros.
+          </p>
+        </div>
+
+        <div class="card me" onclick="page('share')">
+          <h3 class="card__title">Acerca de mi</h3>
+
+          <p class="card__desp" id="article"></p>
+        </div>
+      </div>
+
+      <!-- <div class="article" id="article"></div> -->
+    </div>
+    <script src="./code/index.js"></script>
+    <script src="./code/code.js"></script>
+  </body>
+</html>
