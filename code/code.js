@@ -22,5 +22,9 @@ const menuHTML = `
 menuID.innerHTML = menuHTML;
 
 const page = (path) => {
-  window.location.href = `https://estarlincito.github.io/cloudsee${path}`
+  if (path === "me") {
+    window.open("https://linktr.ee/estarlincito");
+  } else {
+    window.location.href = `https://estarlincito.github.io/cloudsee${path}`;
+  }
 };
