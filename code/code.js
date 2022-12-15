@@ -2,25 +2,25 @@ const menuID = document.getElementById("menu");
 
 const menuHTML = `    
   <nav class="menu">
-    <div class="menu__button" onclick="page('inicio')">
+    <div class="menu__button" onclick="page('/')">
       Inicio
     </div>
 
-    <div class="menu__button" onclick="page('iphone')">
+    <div class="menu__button" onclick="page('/components/iphone.html')">
       iPhone
     </div>
 
-    <div class="menu__button" onclick="page('android')">
+    <div class="menu__button" onclick="page('/components/android.html')">
       Android
     </div>
 
-    <div class="menu__button" onclick="page('share')">
+    <div class="menu__button" onclick="page('/components/share.html')">
       Otros
     </div>
   </nav>`;
 
 menuID.innerHTML = menuHTML;
 
-const page = (parr) => {
-  window.location.href = "www.google.com"
+const page = (path) => {
+  window.location.href = `https://estarlincito.github.io/cloudsee${path}`
 };

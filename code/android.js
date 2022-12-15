@@ -14,7 +14,7 @@ const app = async (deviceN, storeN, urlV) => {
 
   articleID.innerHTML += `
     <h2 class="article__subtitle">
-      <a href="">${title}</a> 
+      <a onclick="page('components/android.html')">${title}</a> 
     </h2>
     <p class="article__desp">
       ${desp}

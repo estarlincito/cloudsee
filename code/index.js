@@ -12,5 +12,3 @@ const app = async () => {
 };
 
 app();
-
-// alert('')
