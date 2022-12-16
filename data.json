@@ -1,7 +1,7 @@
 {
   "article": {
     "title": "¿Como instalar cloudsee en un DEVICENAME?",
-    "desp": "En este post te mostraré los pasos a seguir para instalar y crear tu cuenta de cloudsee en tu DEVICENAME",
+    "desp": "En este post te mostraré los pasos a seguir para instalar y crear tu cuenta de cloudsee en tu DEVICENAME.",
     "steps": [
       {
         "step": "Ubica la tienda de aplicaciones de tu <b>DEVICENAME</b> (STORENAME)."
@@ -12,13 +12,13 @@
       { "step": "Seleccionamos nuestro país y hacemos clic en Enter." },
       { "step": "Hacemos clic en <b>Start CloudSEE Int' Pro</b>" },
       {
-        "step": "Aceptamos los términos clicando <b>I have agreed the CloudSEE</b> y luego hacemos clic en <b>Quick Register.</b>"
+        "step": "Aceptamos los términos clicando <b>I have agreed the CloudSEE</b> y luego hacemos clic en <b>Quick Register</b>."
       },
       {
         "step": "Escribimos nuestro correo electrónico y hacemos clic en Next."
       },
       {
-        "step": "En este paso escribimos nuestra contraseña, les recomiendo que no elijan una contraseña fácil o una que ya estén utilizando en otro servicio. <br /> Luego de introducir la contraseña hacemos clic en <b>Get Code</b>"
+        "step": "En este paso escribimos nuestra contraseña, les recomiendo que no elijan una contraseña fácil o una que ya estén utilizando en otro servicio. <br /> Luego de introducir la contraseña hacemos clic en <b>Get Code</b>."
       },
       {
         "step": "Ubica la bandeja de entrada de tu correo electrónico, busca el correo que te envió <b>CloudSEE</b> con el código de verificación. Una vez localizado el código introdúcelo en la aplicación y haz clic en <b>Start CloudSEE Int'I Pro.</b> para terminar de crear tu cuenta."

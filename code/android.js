@@ -44,7 +44,7 @@ const app = async (deviceN, storeN, urlV) => {
         <img
             class="article__step_img"
             src="../img/${i + 1}step${deviceN}.png"
-            alt="${i + 1}Stepv${deviceN} Screenshot"
+            alt="${i + 1}Step${deviceN} Screenshot"
           />
       </div>`;
   }

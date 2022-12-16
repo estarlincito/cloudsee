@@ -69,7 +69,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-.card__desp{
+.card__desp {
   color: rgb(55, 54, 54);
 }
 
@@ -94,8 +94,9 @@ a:active {
   font-family: "Times New Roman", Times, serif;
   color: rgb(86, 86, 86);
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 40px;
+  text-align: left;
 }
 
 .article__step {
@@ -108,6 +109,7 @@ a:active {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 18px;
+  text-align: left;
 }
 
 .article__step_num {
@@ -192,26 +194,26 @@ a:active {
     border-radius: 5px;
   }
 
-    /* index */
-    .cards {
-      padding: 10px;
-    }
-    .card {
-      margin: 20px;
-      padding: 20px;
-    }
-  
-    .cards__sub {
-      font-size: 16px;
-    }
+  /* index */
+  .cards {
+    padding: 10px;
+  }
+  .card {
+    margin: 20px;
+    padding: 20px;
+  }
 
-    .card__title{
-      font-size: 18px;
-    }
+  .cards__sub {
+    font-size: 16px;
+  }
 
-    .card__desp{
-      font-size: 13px;
-    }
+  .card__title {
+    font-size: 18px;
+  }
+
+  .card__desp {
+    font-size: 13px;
+  }
 
   .title {
     font-size: 25px;

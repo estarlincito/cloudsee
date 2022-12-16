@@ -7,25 +7,140 @@
     <meta name="description" content="Compartir acceso de cloudsee" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <title>CloudSEE | Share</title>
   </head>
   <body>
     <div id="menu"></div>
     <div class="container">
-      <h1 class="title">Compartir acceso de cloudsee</h1>
+      <h1 class="title">Compartir acceso de cloudSee</h1>
 
-      <p>
-        <!-- Para compartir tu acceso de cloudSee con tus compañeros deves seguir
-        estos pasos: -->
+      <div class="article" id="article">
+        <h2 class="article__subtitle">
+          <a onclick="page('/components/share.html')"
+            >¿Como compartir tu acceso de cloudSee con otros Usuarios?</a
+          >
+        </h2>
 
-        Updating....
-      </p>
+        <p class="article__desp">
+          Creo que si deseas compartir tu acceso de <b>cloudSee</b> con tus
+          compañeros es porque ya tienes tu cuenta configurada y enlazada a tu
+          DVR, si es así podemos continuar en el tutorial.
+        </p>
 
-      <div class="article" id="article"></div>
+        <!-- 1step -->
+        <div class="article__step">
+          <p class="article__step_text">
+            <span class="article__step_num">1.</span>
+            Muy bien, empecemos con el dispositivo que tiene el acceso a las
+            cámara de seguridad. Así que abrimos la aplicación de
+            <b>CloudSEE Int'l Pro</b>, nos ubicamos sobre el dispositivo que
+            queremos compartir, hacemos clic en los tres puntos (...) y hacemos
+            clic nuevamente donde dice Share.
+          </p>
+
+          <img
+            class="article__step_img"
+            src="../img/1stepShare.png"
+            alt="1Step Screenshot"
+          />
+        </div>
+
+        <!-- 2step -->
+        <div class="article__step">
+          <p class="article__step_text">
+            <span class="article__step_num">2.</span>
+            Estando en la ventana de <b>Share device</b>, hacemos clic donde
+            dice “Use QR code to invite friends”
+          </p>
+
+          <img
+            class="article__step_img"
+            src="../img/2stepShare.png"
+            alt="2Step Screenshot"
+          />
+        </div>
+
+        <!-- 3step -->
+        <div class="article__step" id="data_3">
+          <p class="article__step_text">
+            <span class="article__step_num">3.</span>
+            Ahora veremos un código <b>QR</b> que utilizaremos para darle acceso
+            al usuario o compañero que deseemos invitar.
+          </p>
+
+          <img
+            class="article__step_img"
+            src="../img/3stepShare.png"
+            alt="3Step Screenshot"
+          />
+        </div>
+
+        <!-- 4step -->
+        <div class="article__step">
+          <p class="article__step_text">
+            <span class="article__step_num">4.</span>
+            En el dispositivo del <b>Usuario</b> que deseamos invitar abrimos
+            <b>CloudSEE Int'l Pro</b> y hacemos clic en el botón con el símbolo
+            <b style="color: red">+</b>.
+          </p>
+
+          <img
+            class="article__step_img"
+            src="../img/4stepShare.png"
+            alt="4Step Screenshot"
+          />
+        </div>
+
+        <!-- 5step -->
+        <div class="article__step">
+          <p class="article__step_text">
+            <span class="article__step_num">5.</span>
+            Una vez en la ventana <b>ADD Device</b>, hacemos clic en
+            <b>QR Code</b>.
+          </p>
+
+          <img
+            class="article__step_img"
+            src="../img/5stepShare.png"
+            alt="5Step Screenshot"
+          />
+        </div>
+
+        <!-- 6step -->
+        <div class="article__step">
+          <p class="article__step_text">
+            <span class="article__step_num">6.</span>
+            En la ventana <b>Scan QR Code</b>, escaneamos el código
+            <b>QR</b> que obtuvimos en el paso <a href="#data_3"><b>#3</b></a
+            >.
+          </p>
+
+          <img
+            class="article__step_img"
+            src="../img/6stepShare.png"
+            alt="6Step Screenshot"
+          />
+        </div>
+
+        <!-- 7step -->
+        <div class="article__step">
+          <p class="article__step_text">
+            <span class="article__step_num">7.</span>
+            Y listo, si te aparece una ventana parecida a esta, puedes estar
+            contento, ya le diste acceso a tu compañero de <b>cloudSee</b>.
+          </p>
+
+          <img
+            class="article__step_img"
+            src="../img/7stepShare.png"
+            alt="7Step Screenshot"
+          />
+        </div>
+      </div>
     </div>
 
-    <script src="./code/share.js"></script>
-    <script src="./code/code.js"></script>
+    <script src="../code/share.js"></script>
+    <script src="../code/code.js"></script>
   </body>
 </html>
