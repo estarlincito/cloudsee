@@ -11,7 +11,12 @@ a {
 a:active {
   color: rgb(7, 45, 121);
 }
+
 .menu {
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  top: 0;
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: center;
@@ -40,7 +45,7 @@ a:active {
 
 .container {
   padding: 20px;
-  margin: 20px;
+  margin: 150px 20px 20px 20px;
   display: grid;
   justify-content: center;
 }
@@ -136,6 +141,10 @@ a:active {
     width: 60px;
   }
 
+  .container {
+    margin: 100px 20px 20px 20px;
+  }
+
   /* index */
   .cards {
     padding: 20px;
@@ -192,6 +201,10 @@ a:active {
     padding: 5px;
     font-size: 13px;
     border-radius: 5px;
+  }
+
+  .container {
+    margin: 70px 20px 20px 20px;
   }
 
   /* index */
